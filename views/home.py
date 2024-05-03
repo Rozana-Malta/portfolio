@@ -11,7 +11,7 @@ def page():
             """
             <div style="text-align: justify;">
             <p style="font-size: 18px;"><strong>Olá!</strong> Seja bem-vindo(a) ao meu portfólio, que representa um pouco de tudo que eu 
-            sei sobre <strong>ciência e análise de dados</strong>.</p>
+            sei sobre <strong>Ciências e Análises de Dados</strong>.</p>
             <p style="font-size: 18px;">Nessa página, apresento resumidamente os projetos que compõem o meu <strong>portfólio</strong>. Em cada um deles segui
             uma linha de raciocínio que me permitiu explorar diferentes aspectos da análise de dados, desde a
             coleta e limpeza dos dados até painéis e relatórios e alguns também a implementação de modelos. Etapas

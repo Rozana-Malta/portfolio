@@ -57,7 +57,8 @@ def page():
     with col2:
         st.markdown("*Experiências acadêmicas*")
         sac.buttons([
-        sac.ButtonsItem(label='Bacharel em Química', icon='mortarboard'),
+        sac.ButtonsItem(label='Bacharel em Química - UFMG', icon='mortarboard'),
+        sac.ButtonsItem(label='Técnico em Química - CEFET/MG', icon='mortarboard'),
         ], index=None, align='start', radius='lg', gap='md', color='cyan', key='academia')
     with col1:
         st.markdown("*Experiências profissionais*")
@@ -83,7 +84,7 @@ def page():
                 """,
                 unsafe_allow_html=True
             )
-            st.caption("2 anos e 6 meses | Belo Horizonte e Região, Brasil")
+            st.caption("2 anos e 7 meses | Belo Horizonte e Região, Brasil")
 
         
         if b_experiencias == 'MGgrafeno':
@@ -142,10 +143,6 @@ def page():
             )  
             st.caption("jan de 2014 - nov de 2015 · 1 ano 11 meses | Belo Horizonte e Região, Brasil")
 
-
-
-
-
     st.divider()
 
     col1, col2 = st.columns(2)
@@ -202,5 +199,96 @@ def page():
             sac.ButtonsItem(label='Parda', icon='palette'),
             sac.ButtonsItem(label='Heterossexual', icon='suit-heart'),
             ], index=None, align='start', radius='lg', gap='md', color='cyan', key='diversidade')
+
+    st.divider()
+
+    st.markdown("**O que posso dizer dos meu projetos?**")
+    
+    projetos = sac.buttons([
+    sac.ButtonsItem(label='Projetos que me orgulho'),
+    sac.ButtonsItem(label='Projetos que posso melhorar'),
+    ], align='start', radius='lg', gap='md', color='cyan', key='projetos')
+
+    if projetos == 'Projetos que me orgulho':     
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            🚧 em desenvolvimento ...
+            """,
+            unsafe_allow_html=True
+        )
+    
+    else:
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            🚧 em desenvolvimento ...
+            """,
+            unsafe_allow_html=True
+        ) 
+
+    st.divider()
+
+    st.markdown("**Características pessoais**")
+        
+    caracteristicas = sac.buttons([
+    sac.ButtonsItem(label='Características que me considero boa'),
+    sac.ButtonsItem(label='Características que preciso melhorar'),
+    ], align='start', radius='lg', gap='md', color='cyan', key='caracteristicas')
+
+    if caracteristicas == 'Características que me considero boa':     
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            🚧 em desenvolvimento ...
+            """,
+            unsafe_allow_html=True
+        )
+    
+    else:
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            🚧 em desenvolvimento ...
+            """,
+            unsafe_allow_html=True
+        )
+
+    st.divider()
+
+    st.markdown("**Feedbacks**")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            <p><strong>Jéssica Del'Boccio</strong></p>
+            <p>Eu e a Rozana trabalhamos juntas no LEC-UFMG e no MGgrafeno e, com base em vários anos de convívio, 
+            digo com propriedade que a Rozana é uma profissional completa! Ela se destaca pelo comprometimento e 
+            aprendizado rápido nas atividades que desempenha, sempre buscando conhecimento e melhorias nos processos. 
+            A Rozana também é muito criativa, organizada, empática, dinâmica, proativa, preza pela comunicação clara, 
+            tanto verbal como escrita, tem facilidade de trabalhar em equipe e discutir ideias. Foi um prazer trabalhar 
+            ao lado dessa excelente profissional com quem aprendi tanto!</p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+    with col2:
+        st.markdown(
+            """
+            <div style="text-align: justify">
+            <p><strong>Isabela Cruz</strong></p>
+            <p>Durante todo esse tempo você foi uma supervisora incrível, dedicada, compreensiva, 
+            sensível e que soube me guiar em todos os momentos mas sempre me dando autonomia para aprender
+            e tomar decisões sozinha também. Acho que caminhamos juntas em todo o processo e isso funcionou bastante. 
+            Além disso, uma das coisas que mais admiro em você é que você faz acontecer, mesmo quando não domina todos 
+            os aspectos da tarefa e isso me motivou de uma forma que você não tem ideia!</p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
 
     st.divider()
