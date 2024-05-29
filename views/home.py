@@ -1,5 +1,7 @@
 import streamlit as st
 import streamlit_antd_components as sac
+from streamlit_pdf_viewer import pdf_viewer
+
 
 
 def page():
@@ -33,11 +35,13 @@ def page():
 
     st.divider()
     
-    sac.tabs([
+    tabs = sac.tabs([
         sac.TabsItem(label='Análises de Dados'),
         sac.TabsItem(label='Previsões'),
         sac.TabsItem(label='Machine Learning'),
         sac.TabsItem(label='Deep Learning'),
         ], align='center', size='lg', variant='outline', use_container_width=True)
 
-
+    if tabs == 'Análises de Dados':
+        st.write("Análises de Dados")
+        pdf_viewer("data/pdfs/case_ecommerce.pdf", height=700, width=1300, pages_vertical_spacing=7)

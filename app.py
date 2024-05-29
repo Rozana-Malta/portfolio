@@ -8,6 +8,7 @@ from views import forecast
 from views import machine_learning
 from views import deep_learning
 from views import ia
+from views import analise_dados
 
 st.set_page_config(
     page_title = "Portfólio | Zana Malta",
@@ -24,10 +25,11 @@ with st.sidebar:
                 "Projetos",
                 icon="bar-chart",
                 children=[
-                    sac.MenuItem("Previsões", icon="chevron-right"),
-                    sac.MenuItem("Machine Learning", icon="chevron-right"),
-                    sac.MenuItem("Deep Learning", icon="chevron-right"),
-                    sac.MenuItem("IA", icon="chevron-right"),
+                    sac.MenuItem("Análises de Dados", icon="chevron-right"),
+                    #sac.MenuItem("Previsões", icon="chevron-right"),
+                    #sac.MenuItem("Machine Learning", icon="chevron-right"),
+                    #sac.MenuItem("Deep Learning", icon="chevron-right"),
+                    #sac.MenuItem("IA", icon="chevron-right"),
                 ],
             ),
         ],
@@ -37,10 +39,11 @@ page_mapping = {
         "Início": home.page,
         "Resumo": resume.page,
         "Projetos": projects.page,
-        "Previsões": forecast.page,
-        "Machine Learning": machine_learning.page,
-        "Deep Learning": deep_learning.page,
-        "IA": ia.page,
+        "Análises de Dados": analise_dados.page,
+        #"Previsões": forecast.page,
+        #"Machine Learning": machine_learning.page,
+        #"Deep Learning": deep_learning.page,
+        #"IA": ia.page,
     }
 
 page_mapping[pagina_selecionada]()
