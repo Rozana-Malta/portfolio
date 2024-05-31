@@ -5,7 +5,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 
 def page():
-    st.header("Portfólio da Zana Malta")
+    st.header("Portfólio da Zana Malta", divider="rainbow")
     col1, col2 = st.columns([1.2, 1])
 
     with col1:
@@ -35,13 +35,3 @@ def page():
 
     st.divider()
     
-    tabs = sac.tabs([
-        sac.TabsItem(label='Análises de Dados'),
-        sac.TabsItem(label='Previsões'),
-        sac.TabsItem(label='Machine Learning'),
-        sac.TabsItem(label='Deep Learning'),
-        ], align='center', size='lg', variant='outline', use_container_width=True)
-
-    if tabs == 'Análises de Dados':
-        st.write("Análises de Dados")
-        pdf_viewer("data/pdfs/case_ecommerce.pdf", height=700, width=1300, pages_vertical_spacing=7)

@@ -12,7 +12,7 @@ from views import analise_dados
 
 st.set_page_config(
     page_title = "Portfólio | Zana Malta",
-    page_icon = "📊",
+    page_icon = "🍊",
     layout = "wide",
 )
 
