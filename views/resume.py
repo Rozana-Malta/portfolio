@@ -17,20 +17,30 @@ def page():
         st.markdown(
         """
         <div style="text-align: justify;">
-        <p><strong>Olá!</strong> Seja bem-vindo(a) ao meu portfólio, que representa um pouco de tudo que eu 
-        sei sobre ciência/análise de dados.</p>
-        <p>Tenho <strong>quase 3 anos</strong> de experiência na área, e antes de ingressar no campo de dados, 
-        construí uma carreira como química, acumulando <strong>cerca de 6 anos</strong> de experiência como técnica 
-        em química e pesquisadora.</p>
-        <p>Mesmo durante meu tempo na química, estava envolvida na análise de dados. 
-        Com muita curiosidade e vontade de crescer, comecei a aprender sobre análise de dados com <strong>Python</strong>, 
-        o que se revelou um ponto de virada na minha carreira.</p>
-        <p>Posteriormente, tive a oportunidade de iniciar o time de dados na <strong>ABLA One</strong>, tornando-me a 
-        primeira funcionária da empresa na área de dados. Como você pode imaginar, assumir esse papel 
-        exigiu que eu aprendesse todos os processos envolvidos na área de dados, desde a <strong>extração, preparo, 
-        análise e implementação de modelos</strong> até o compartilhamento e ação. Sou responsável por todas essas etapas.</p>
-        <p>Atualmente, sou uma <strong>Cientista de Dados Pleno</strong>, pronta para enfrentar novos desafios e 
-        continuar aprendendo!</p>
+        <p>
+        Sou uma profissional da área de dados, com uma trajetória que combina <strong>ciência e tecnologia</strong>. 
+        Antes de me dedicar ao mundo dos dados, construí uma carreira na química, acumulando <strong>6 anos e 7 meses</strong> de experiência 
+        como técnica e pesquisadora. Durante esse período, também colaborei na Gestão da Empresa Júnior do curso de Química da UFMG (Dativa Jr), 
+        onde desenvolvi habilidades de <strong>liderança e gestão</strong>.
+        </p>
+        <p>
+        Mesmo atuando na química, minha curiosidade pela análise de dados sempre esteve presente. 
+        Iniciei meus estudos em análise de dados utilizando <strong>Python</strong>, 
+        o que se tornou um divisor de águas em minha carreira. Essa habilidade não apenas complementou meu conhecimento técnico, 
+        mas também abriu novas oportunidades profissionais.
+        </p>
+        <p>
+        Uma dessas oportunidades foi na <strong>ABLA One</strong>, onde fui a primeira funcionária dedicada à área de dados. 
+        Neste papel pioneiro, fui responsável por iniciar e estruturar o time de dados, aprendendo e implementando todos os processos essenciais, 
+        desde a <strong>extração e preparo de dados, passando pela análise e criação de modelos, até a implementação e compartilhamento dos resultados</strong>. 
+        Minha capacidade de adaptar e aprender rapidamente foi fundamental para o sucesso das iniciativas de dados na empresa.
+        </p>
+        <p>
+        Atualmente, atuo como <strong>Analista e Cientista de Dados Pleno</strong>, 
+        sempre pronta para enfrentar novos desafios e continuar a expandir meus conhecimentos. 
+        Estou constantemente em busca de aprimoramento e novas maneiras de aplicar meus conhecimentos para gerar valor e insights estratégicos.
+        </p>
+        <p>Estou entusiasmada para compartilhar minhas experiências e habilidades, e contribuir de maneira significativa em novos projetos e equipes!</p>
         </div>
         """,
         unsafe_allow_html=True
