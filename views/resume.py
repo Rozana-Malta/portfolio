@@ -48,7 +48,7 @@ def page():
                     use_container_width=True,
                     #type="primary"
                     )
-        st.link_button("LinkedIN", "https://www.linkedin.com/in/rozanamalta/", use_container_width=True)
+        st.link_button("LinkedIn", "https://www.linkedin.com/in/rozanamalta/", use_container_width=True)
 
     st.divider()
     
@@ -84,7 +84,7 @@ def page():
                 """,
                 unsafe_allow_html=True
             )
-            st.caption("2 anos e 7 meses | Belo Horizonte e Região, Brasil")
+            st.caption("2 anos e 9 meses | Belo Horizonte e Região, Brasil")
 
         
         if b_experiencias == 'MGgrafeno':
@@ -202,59 +202,59 @@ def page():
 
     st.divider()
 
-    st.markdown("**O que posso dizer dos meu projetos?**")
-    
-    projetos = sac.buttons([
-    sac.ButtonsItem(label='Projetos que me orgulho'),
-    sac.ButtonsItem(label='Projetos que posso melhorar'),
-    ], align='start', radius='lg', gap='md', color='cyan', key='projetos')
-
-    if projetos == 'Projetos que me orgulho':     
-        st.markdown(
-            """
-            <div style="text-align: justify">
-            🚧 em desenvolvimento ...
-            """,
-            unsafe_allow_html=True
-        )
-    
-    else:
-        st.markdown(
-            """
-            <div style="text-align: justify">
-            🚧 em desenvolvimento ...
-            """,
-            unsafe_allow_html=True
-        ) 
-
-    st.divider()
-
-    st.markdown("**Características pessoais**")
-        
-    caracteristicas = sac.buttons([
-    sac.ButtonsItem(label='Características que me considero boa'),
-    sac.ButtonsItem(label='Características que preciso melhorar'),
-    ], align='start', radius='lg', gap='md', color='cyan', key='caracteristicas')
-
-    if caracteristicas == 'Características que me considero boa':     
-        st.markdown(
-            """
-            <div style="text-align: justify">
-            🚧 em desenvolvimento ...
-            """,
-            unsafe_allow_html=True
-        )
-    
-    else:
-        st.markdown(
-            """
-            <div style="text-align: justify">
-            🚧 em desenvolvimento ...
-            """,
-            unsafe_allow_html=True
-        )
-
-    st.divider()
+#    st.markdown("**O que posso dizer dos meu projetos?**")
+#    
+#    projetos = sac.buttons([
+#    sac.ButtonsItem(label='Projetos que me orgulho'),
+#    sac.ButtonsItem(label='Projetos que posso melhorar'),
+#    ], align='start', radius='lg', gap='md', color='cyan', key='projetos')
+#
+#    if projetos == 'Projetos que me orgulho':     
+#        st.markdown(
+#            """
+#            <div style="text-align: justify">
+#            🚧 em desenvolvimento ...
+#            """,
+#            unsafe_allow_html=True
+#        )
+#    
+#    else:
+#        st.markdown(
+#            """
+#            <div style="text-align: justify">
+#            🚧 em desenvolvimento ...
+#            """,
+#            unsafe_allow_html=True
+#        ) 
+#
+#    st.divider()
+#
+#    st.markdown("**Características pessoais**")
+#        
+#    caracteristicas = sac.buttons([
+#    sac.ButtonsItem(label='Características que me considero boa'),
+#    sac.ButtonsItem(label='Características que preciso melhorar'),
+#    ], align='start', radius='lg', gap='md', color='cyan', key='caracteristicas')
+#
+#    if caracteristicas == 'Características que me considero boa':     
+#        st.markdown(
+#            """
+#            <div style="text-align: justify">
+#            🚧 em desenvolvimento ...
+#            """,
+#            unsafe_allow_html=True
+#        )
+#    
+#    else:
+#        st.markdown(
+#            """
+#            <div style="text-align: justify">
+#            🚧 em desenvolvimento ...
+#            """,
+#            unsafe_allow_html=True
+#        )
+#
+#    st.divider()
 
     st.markdown("**Feedbacks**")
     col1, col2 = st.columns(2)
@@ -280,7 +280,7 @@ def page():
             """
             <div style="text-align: justify">
             <p><strong>Isabela Cruz</strong></p>
-            <p>Durante todo esse tempo você foi uma supervisora incrível, dedicada, compreensiva, 
+            <p>Durante todo esse tempo a Rozana foi uma supervisora incrível, dedicada, compreensiva, 
             sensível e que soube me guiar em todos os momentos mas sempre me dando autonomia para aprender
             e tomar decisões sozinha também. Acho que caminhamos juntas em todo o processo e isso funcionou bastante. 
             Além disso, uma das coisas que mais admiro em você é que você faz acontecer, mesmo quando não domina todos 
@@ -289,6 +289,5 @@ def page():
             """,
             unsafe_allow_html=True
         )
-
 
     st.divider()

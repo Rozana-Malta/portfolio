@@ -12,16 +12,21 @@ def page():
         st.markdown(
             """
             <div style="text-align: justify;">
-            <p style="font-size: 18px;"><strong>Olá!</strong> Seja bem-vindo(a) ao meu portfólio, que representa um pouco de tudo que eu 
+            <p style="font-size: 18px;"><strong>Olá!</strong> Seja bem-vindo(a) ao meu portfólio, onde compartilho um pouco de tudo que eu 
             sei sobre <strong>Ciências e Análises de Dados</strong>.</p>
-            <p style="font-size: 18px;">Nessa página, apresento resumidamente os projetos que compõem o meu <strong>portfólio</strong>. Em cada um deles segui
-            uma linha de raciocínio que me permitiu explorar diferentes aspectos da análise de dados, desde a
-            coleta e limpeza dos dados até painéis e relatórios e alguns também a implementação de modelos. Etapas
-            que geralmente vivenciamos no mercado de trabalho.</p>
-            <p style="font-size: 18px;">Dúvidas ou sugestões? Fique à vontade para entrar em contato.</p>
-            <p style="font-size: 18px;">Se você é da área de dados eu espero esses trabalhos desenvolvidos contribua para o seus conhecimentos.</p>
-            <p style="font-size: 18px;">Se você é de outra área, espero que esses trabalhos possam te inspirar a aprender mais sobre ciências e análise de dados.</p>
-            <p style="font-size: 18px;">Se você é um recrutador, espero que esses trabalhos possam te ajudar a entender um pouco mais sobre o meu trabalho.</p>
+            <p style="font-size: 18px;">
+            Com quase 3 anos de experiência na área, 
+            tenho o prazer de apresentar meus projetos e cases desenvolvidos. 
+            Cada projeto segue uma linha de raciocínio que me permitiu explorar
+            diversos aspectos da análise de dados, desde a coleta e limpeza de 
+            dados até a criação de painéis, relatórios e a implementação de 
+            modelos. Essas são etapas comuns no mercado de trabalho, 
+            e cada uma delas está refletida aqui.
+            </p>
+            <p style="font-size: 18px;"><strong>📧💬 Dúvidas ou sugestões?</strong> Fique à vontade para entrar em contato.</p>
+            <p style="font-size: 18px;"><strong>📊📚 Se você é da área de dados</strong> eu espero esses trabalhos desenvolvidos contribua para o seus conhecimentos.</p>
+            <p style="font-size: 18px;"><strong>🔍📈 Se você é de outra área</strong>, espero que esses trabalhos possam te inspirar a aprender mais sobre ciências e análise de dados.</p>
+            <p style="font-size: 18px;"><strong>🤝💼 Se você é um recrutador</strong>, espero que esses trabalhos possam te ajudar a entender um pouco mais sobre o meu trabalho.</p>
         
             <p style="font-size: 18px;"><strong>Aproveite a visita!</strong></p>
         
